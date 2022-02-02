@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('back.jpg')no-repeat center center fixed;
+    background-size: cover;
+}
+
+.left-nav{
+    
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    display: inline-block;
+    border: 2px solid red;
+    color: seashell;
+}
+.left-nav img{
+    margin-left: 7px;
+    width: 80px;
+}
+.left-nav div{
+    position: relative;
+    text-align: center;
+}
+.middle-nav{
+    display: block;
+    width: 33%;
+    border: 2px solid green;
+    color: seashell;
+    margin: 10px auto;
+    font-size: 20px;
+    
+}
+.middle-nav li{
+    display: inline-block;
+    margin: 10px 10px;
+    color: white;
+}
+.middle-nav li a{
+    text-decoration: none;
+    color: white;
+}
+.middle-nav li a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+.right-nav{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    display: inline-block;
+    color: seashell;
+    
+    border-style: none;
+    
+}
+.right-nav input{
+    border-radius: 50px;
+    border-color: khaki;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    padding-left: 20px;
+    outline: none;
+   
+    
+}
+
+.right-nav img{
+    width: 16px;
+    position: absolute;
+    right: 110px;
+    top: 15px;
+}
+.right-nav div{
+    position: absolute;
+    right: 10px;
+    margin: 10px auto;
+}
+.signin{
+    margin-left: 15px;
+    padding: 10px 10px;
+    background: transparent;
+    border: transparent;
+    color: white;
+    font-size: 20px;
+}
+.signin:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.register-container{
+    border: 2px solid white;
+    width: 33%;
+    margin: 40px 60px;
+    border-radius: 20px;
+    padding: 0px ;
+    
+    
+    
+}
+.register-container h4{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    font-size: 25px;
+    background-color: green;
+    display: block;
+    padding: 28px;
+    width: 89%;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    
+}
+.reg-con input{
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    width: 56%;
+    padding: 8px 5px;
+    border-radius: 26px;
+    font-size: 15px;
+    outline: none;
+
+}
+.register-container button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    width: 55%;
+    margin: 20px auto;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
